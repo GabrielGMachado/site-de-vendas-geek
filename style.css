@@ -1,0 +1,121 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat+Alternates);
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Montserrat:wght@700&display=swap');
+
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #262626;
+}
+
+
+html {
+  /*isso é igual a des pixeis*/
+  font-size: 62.5%;
+}
+
+header {
+  background-color:#262626;
+  height: 8rem;
+  display: flex;
+  gap: 10rem;
+  align-items: center;
+  padding: 0 23rem;
+  justify-content: space-around;
+}
+
+header p {
+  font-size: 3rem;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+.pesquisa {
+  display: flex;
+}
+
+button {
+  padding: 1rem 2rem;
+  border-radius: 1.5rem;
+  border: 0;
+  background-color: rgb(39, 199, 207);
+  color: white;
+  margin-left: -3rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(2, 150, 158);
+}
+
+input[type="text"] {
+  padding: 1rem;
+  width: 75rem;
+  border-radius: 1.5rem;
+  border: 1px solid #ccc;
+}
+
+.icones {
+  display: flex;
+  gap: 3rem;
+}
+
+nav ul {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  background-color: #403F3D;
+  height: 3.5rem;
+  text-decoration: none;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.imgb img {
+  width: 100%;
+  height: 50rem;
+  margin-top: -1.7rem;
+}
+
+.marca-container {
+  position: relative;
+  overflow: hidden;
+  margin: 3rem 20rem 0rem;
+}
+.marcas {
+  display: flex;
+  justify-content: center;
+  transition: transform 0.3s ease;
+  gap: 4rem;
+}
+.marca {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  font-size: 24px;
+  border-radius: 20px;
+  
+}
+
+
+
+
+
+
+
+
