@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
   <title>Document</title>
 </head>
@@ -20,22 +20,22 @@
     </div>
 
     <div class="icones">
-    <a href="#"><i class="fas fa-user" style="font-size: 3rem; color: white;"></i></a>
-    <a href="#"><i class="fa fa-shopping-cart" style="font-size: 3rem; color: white;"></i></a>
+    <a href="Login.html"><i class="fas fa-user" style="font-size: 3rem; color: white;"></i></a>
+    <a href="carrinho.html"><i class="fa fa-shopping-cart" style="font-size: 3rem; color: white;"></i></a>
   </div>
 </header>
 
 <nav>
   <ul>
-    <li><a href="#">CAMISETAS</a></li>
-    <li><a href="#">LIVROS</a></li>
-    <li><a href="#">PRESENTES</a></li>
-    <li><a href="#">VESTUÁRIO</a></li>
-    <li><a href="#">COZINHA</a></li>
-    <li><a href="#">DECORAÇÃO</a></li>
-    <li><a href="#">ACESSÓRIOS</a></li>
-    <li><a href="#">COLECIONÁVEIS</a></li>
-    <li><a href="#">PREÇO BAIXO</a></li>
+    <li><a href="#" id="livrosLink">LIVROS</a></li>
+    <li><a href="#" id="presentesLink">PRESENTES</a></li>
+    <li><a href="#" id="vestimentasLink">VESTIMENTAS</a></li>
+    <li><a href="#" id="cozinhaLink">COZINHA</a></li>
+    <li><a href="#" id="decoracaoLink">DECORAÇÃO</a></li>
+    <li><a href="#" id="acessoriosLink">ACESSÓRIOS</a></li>
+    <li><a href="#" id="colecionaveisLink">COLECIONÁVEIS</a></li>
+    <li><a href="#" id="precoBaixoLink">PREÇO BAIXO</a></li>
+    <li><a href="#"  id="mostrarTodosButton">MOSTRAR TODOS</a></li>
   </ul>
 </nav>
 
@@ -45,7 +45,7 @@
 
 <div class="marca-container">
   <div class="marcas">
-    <div class="marca"><img src="img/harry-potter-logo.svg" alt=""></div>
+    <a href="harry.html"><div class="marca"><img src="img/harry-potter-logo.svg" alt=""></div></a>
     <div class="marca"><img src="img/logo-batman.svg" alt=""></div>
     <div class="marca"><img src="img/logo-dc.svg" alt=""></div>
     <div class="marca"><img src="img/logo-supermario.svg" alt=""></div>
@@ -54,6 +54,13 @@
   </div>
 </div>
 
+
+<div id="productCase"></div>
+  <script src="script.js"></script>
+
+
 </div>
+
+
 </body>
 </html>

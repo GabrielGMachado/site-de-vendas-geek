@@ -98,7 +98,7 @@ nav ul li a {
   display: flex;
   justify-content: center;
   transition: transform 0.3s ease;
-  gap: 4rem;
+  gap: 3.5rem;
 }
 .marca {
   width: 200px;
@@ -111,6 +111,52 @@ nav ul li a {
   border-radius: 20px;
   
 }
+
+#productCase {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 20px;
+  max-width: 130rem;
+  margin: 0 auto;
+  color: white;
+  font-size: 14px;
+}
+
+
+.product {
+  width: 250px;
+  margin: 10px 1%;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: #403F3D;
+  height: 400px;
+  
+}
+
+.product img {
+  max-width: 400px;
+  max-height: 250px;
+  margin: 0 auto;
+  border-radius: 5px;
+  
+}
+
+.product:hover {
+  background-color: #e0e0e0;
+}
+
+.addToCartButton {
+  margin-top: 10px;
+}
+
+
+
+
 
 
 

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500&family=Montserrat:wght@700&display=swap');
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #fff;
+  
+}
+
+h1 {
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  height: 25rem;
+  background: lightgrey;
+  background-color: #4158d0;
+  background-image: linear-gradient( #262626 50%, #403F3D 100%);
+  border-top-left-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  padding: 1rem;
+  box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
+  transition: 0.5 ease-in-out;
+  text-align: center;
+  width: 30rem;
+}
+
+
+
+.heading {
+  text-align: center;
+  font-weight: 600;
+  padding-top: 1rem;
+  font-size: large;
+}
+
+.input-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
+  transition: 0.5 ease-in-out;
+}
+
+.card input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 15rem;
+  padding: 2px;
+  outline: none;
+  text-align: center;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.button-div {
+  text-align: center;
+}
+
+.submit {
+  margin-top: 1rem;
+  text-align: center;
+  padding: 8px 3rem;
+  border: none;
+  border-top-left-radius: 1rem;
+  background-color: black;
+  color: white;
+  transition: 0.5 ease-in-out;
+  cursor: pointer;
+}
+
+.card input::placeholder {
+  color: white;
+}
