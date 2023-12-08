@@ -76,6 +76,11 @@ nav ul {
   list-style: none;
 }
 
+nav ul a:hover {
+  color: #E41A5D;
+  transition: 0.3s ease;
+}
+
 nav ul li a {
   text-decoration: none;
   list-style: none;
@@ -85,14 +90,18 @@ nav ul li a {
 
 .imgb img {
   width: 100%;
-  height: 50rem;
+  height: 70rem;
   margin-top: -1.7rem;
 }
-
 .marca-container {
   position: relative;
   overflow: hidden;
-  margin: 3rem 20rem 0rem;
+  margin-bottom: -1rem;
+  padding: 3rem;
+}
+
+.aaaa {
+  background-color: #403F3D;
 }
 .marcas {
   display: flex;
@@ -129,17 +138,34 @@ nav ul li a {
   width: 250px;
   margin: 10px 1%;
   border-radius: 5px;
-  padding: 10px;
+  padding: 7px;
   cursor: pointer;
   transition: all 0.3s ease;
   text-align: center;
-  background-color: #403F3D;
+  background-color: #3B3A38;
   height: 400px;
-  
+}
+
+#productCase h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+}
+
+#productCase p {
+  font-size: 13px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#productCase button {
+  display: flex;
+  margin-left: 3rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .product img {
-  max-width: 400px;
+  max-width: 500px;
   max-height: 250px;
   margin: 0 auto;
   border-radius: 5px;
@@ -147,7 +173,7 @@ nav ul li a {
 }
 
 .product:hover {
-  background-color: #e0e0e0;
+  background-color: #706e6c;
 }
 
 .addToCartButton {
@@ -156,12 +182,10 @@ nav ul li a {
 
 
 
-
-
-
-
-
-
-
-
-
+.line {
+  border-bottom: 7px solid rgb(255, 255, 255);
+  width: 100%;
+  
+  border-radius: 10px;
+  margin-top: 0.6rem;
+}
