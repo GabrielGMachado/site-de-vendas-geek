@@ -69,7 +69,7 @@
     link.addEventListener('click', function(e) {
       e.preventDefault();
       const section = document.getElementById('productsSection');
-      const yOffset = 40; 
+      const yOffset = 50; 
       const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
       window.scrollTo({top: y, behavior: 'smooth'});
     });

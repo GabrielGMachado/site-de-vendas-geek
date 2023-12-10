@@ -20,7 +20,7 @@ html {
 
 
 .menu-toggle {
-  display: none; /* Hide by default for larger screens */
+  display: none;
   background-color: #262626;
   color: white;
   border: none;
