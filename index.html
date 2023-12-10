@@ -45,7 +45,7 @@
 <div class="aaaa">
 <div class="marca-container">
   <div class="marcas">
-    <a href="harry.html"><div class="marca"><img src="img/harry-potter-logo.svg" alt=""></div></a>
+    <div class="marca"><img src="img/harry-potter-logo.svg" alt=""></div>
     <div class="marca"><img src="img/logo-batman.svg" alt=""></div>
     <div class="marca"><img src="img/logo-dc.svg" alt=""></div>
     <div class="marca"><img src="img/logo-supermario.svg" alt=""></div>
@@ -55,14 +55,25 @@
 </div>
 </div>
 <div class="line"></div>
-<section>
+
+<section id="productsSection">
   <br><br><br>
-<div id="productCase"></div>
+  <div id="productCase"></div>
   <script src="script.js"></script>
 </section>
 
 </div>
 
+<script>
+  document.querySelectorAll('nav ul li a').forEach(link => {
+    link.addEventListener('click', function(e) {
+      e.preventDefault();
+      const section = document.getElementById('productsSection');
+      const yOffset = 40; 
+      const y = section.getBoundingClientRect().top + window.pageYOffset + yOffset;
+      window.scrollTo({top: y, behavior: 'smooth'});
+    });
+  });
+</script>
 
 </body>
-</html>

@@ -6,8 +6,8 @@ body {
   justify-content: center;
   height: 100vh;
   margin: 0;
-  background-color: #fff;
-  
+  background-image: url(https://www.instintomangaka.com/wp-content/uploads/2015/05/one-piece.jpg?x54399);
+  backdrop-filter: blur( 2px );
 }
 
 h1 {
